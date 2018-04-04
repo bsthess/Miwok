@@ -41,8 +41,6 @@ public class MainActivity extends AppCompatActivity  {
                Intent numbersIntent = new Intent (MainActivity.this,Numbers.class);
                startActivity(numbersIntent);
            }
-
-
        });
 
         colors.setOnClickListener(new View.OnClickListener() {
